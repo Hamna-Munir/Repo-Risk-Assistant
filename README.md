@@ -1,5 +1,3 @@
-# 🧭 Repo Onboarding & Risk Assistant
-
 ![Repo Onboarding & Risk Assistant banner](assets/banner.svg)
 
 **Understand any repo in minutes, not days.**
