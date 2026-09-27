@@ -25,10 +25,6 @@ This app doesn't just *use* Bob — it's built around Bob Shell (v2.x), IBM's te
 - **Why that matters:** early on, we passed Bob only a function *name* — it would spend 40+ seconds searching the wrong workspace for code that lived elsewhere. Giving Bob the real snippet up front turned that into a fast, accurate, single-shot answer.
 - **Graceful fallback:** if Bob Shell isn't installed or no API key is configured, every feature still works — architecture mapping, risk scoring, and gap-finding all run on local Python `ast` analysis with zero external calls. Only the "Draft docstring" action needs Bob; everything else is Bob-independent by design.
 
-## Screenshots
-
-*(Add a screenshot or two here before submitting — a scanned repo's Architecture Summary and the Onboarding Brief make the strongest first impression.)*
-
 ## Tech stack
 
 | Layer | Choice |
